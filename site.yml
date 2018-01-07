@@ -1,0 +1,7 @@
+- hosts:
+  roles:
+    - jenkins
+  tags: jenkins
+  become: yes
+  become_user: root
+  become_method: sudo
